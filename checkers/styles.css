@@ -1,0 +1,259 @@
+body {
+    background-color: gray;
+}
+
+
+/* TABLERO */
+#blanco1, #blanco2, #blanco3, #blanco4, #blanco5, #blanco6, #blanco7, #blanco8,
+#blanco9, #blanco10, #blanco11, #blanco12, #blanco13, #blanco14, #blanco15, #blanco16, #blanco17,
+#blanco18, #blanco19, #blanco20, #blanco21, #blanco22, #blanco23, #blanco24, #blanco25, #blanco26,
+#blanco27, #blanco28, #blanco29, #blanco30, #blanco31, #blanco32, #blanco33, #blanco34, #blanco35,
+#blanco36, #blanco37, #blanco38, #blanco39, #blanco40 {
+    width: 100px;
+}
+
+#crema1, #crema2, #crema3, #crema4, #crema5, #crema6, #crema7, #crema8, #crema9,
+#crema10, #crema11, #crema12, #crema13, #crema14, #crema15, #crema16, #crema17, #crema18,
+#crema19, #crema20, #crema21, #crema22, #crema23, #crema24, #crema25, #crema26, #crema27,
+#crema28, #crema29, #crema30, #crema31, #crema32, #crema33, #crema34, #crema35, #crema36, #crema37, #crema38,
+#crema39, #crema40 {
+    width: 100px;
+}
+
+#tablero {
+    display: block;
+    text-align: center;
+}
+
+/* TABLERO */
+
+/* FICHAS NEGRAS */
+
+#fichaNegra1 {
+    position: absolute;
+    width: 200px;
+    margin-left: -360px;
+    margin-top: -150px;
+}
+
+#fichaNegra2 {
+    position: absolute;
+    width: 200px;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+#fichaNegra3 {
+    position: absolute;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: -150px;
+}
+
+#fichaNegra4 {
+    position: absolute;
+    width: 200px;
+    margin-left: 270px;
+    margin-top: -150px;
+}
+
+#fichaNegra5 {
+    position: absolute;
+    width: 200px;
+    margin-left: -460px;
+    margin-top: -260px;
+}
+#fichaNegra6 {
+    position: absolute;
+    width: 200px;
+    margin-left: -260px;
+    margin-top: -260px;
+}
+#fichaNegra7 {
+    position: absolute;
+    width: 200px;
+    margin-left: -45px;
+    margin-top: -260px;
+}
+#fichaNegra8 {
+    position: absolute;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: -260px;
+}
+
+#fichaNegra9 {
+    position: absolute;
+    width: 200px;
+    margin-left: -360px;
+    margin-top: -360px;
+}
+#fichaNegra10{
+    position: absolute;
+    width: 200px;
+    margin-left: -150px;
+    margin-top: -360px;
+}
+#fichaNegra11{
+    position: absolute;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: -360px;
+}
+#fichaNegra12 {
+    position: absolute;
+    width: 200px;
+    margin-left: 270px;
+    margin-top: -360px;
+
+}
+
+/* FICHAS NEGRAS */
+
+
+/* FICHAS BLANCAS */
+#fichaBlanca1{
+    position: absolute;
+    width: 200px;
+    margin-left: -460px;
+    margin-top: -870px;
+}
+#fichaBlanca2{
+    position: absolute;
+    width: 200px;
+    margin-left: -260px;
+    margin-top: -870px;
+}
+#fichaBlanca3{
+    position: absolute;
+    width: 200px;
+    margin-left: -45px;
+    margin-top: -870px;
+}
+#fichaBlanca4{
+    position: absolute;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: -870px;
+}
+#fichaBlanca5{
+    position: absolute;
+    width: 200px;
+    margin-left: 270px;
+    margin-top: -770px;
+}
+#fichaBlanca6{
+    position: absolute;
+    width: 200px;
+    margin-left: 55px;
+    margin-top: -770px;
+}
+#fichaBlanca7{
+    position: absolute;
+    width: 200px;
+    margin-left: -150px;
+    margin-top: -770px;
+}
+#fichaBlanca8{
+    position: absolute;
+    width: 200px;
+    margin-left: -360px;
+    margin-top: -770px;
+}
+#fichaBlanca9{
+    position: absolute;
+    width: 200px;
+    margin-left: -460px;
+    margin-top: -670px;
+}
+#fichaBlanca10{
+    position: absolute;
+    width: 200px;
+    margin-left: -260px;
+    margin-top: -670px;
+}
+#fichaBlanca11{
+    position: absolute;
+    width: 200px;
+    margin-left: -45px;
+    margin-top: -670px;
+}
+#fichaBlanca12{
+    position: absolute;
+    width: 200px;
+    margin-left: 160px;
+    margin-top: -670px;
+}
+/* FICHAS BLANCAS */
+
+/* TABLERO */
+/* .fade {
+    opacity: 0;
+    transition: opacity 0.5s;
+} */
+
+
+
+
+#botonBlanco {
+    position: absolute;
+    margin-left: -800px;
+    width: 200px;
+    height: 80px;
+    margin-top: -600px;
+    font-size: 30px;
+}
+
+#botonBlanco {
+    border-radius: 20px;
+    padding: 10px;
+    border: -25px;
+    border-color: brown;
+}
+
+#botonBlanco:hover {
+    cursor: pointer;
+    width: 225px;
+    font-size: 25px;
+    height: 70px;
+    transform: scale(1,2);
+}
+
+#botonNegro{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -600px;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+
+}
+
+#botonNegro {
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    border: -25px;
+    border-color: brown;
+}
+
+#botonNegro:hover {
+    cursor: pointer;
+    width: 225px;
+    height: 70px;
+    font-size: 20px;
+    transform: scale(1,2);
+}
+
+#movesBlanco {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 240px;
+    margin-top: -500px;
+}
+#movesNegro {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 1650px;
+    margin-top: -500px;
+}
