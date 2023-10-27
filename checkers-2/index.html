@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+    <title>checkers part 2</title>
+</head>
+<body>
+                                                    
+
+    <div id="tablero" style="border: 6px solid;">
+
+        <div id="row1" class="fila" style="clear: both;">
+            <div id="casillaBlancaRow1" class="casilla"></div>
+            <div id="casillaNegraRow1" class="casilla">
+                <div id="fichaBlancaRow1" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow1" class="casilla"></div>
+            <div id="casillaNegraRow1" class="casilla">
+                <div id="fichaBlancaRow1" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow1" class="casilla"></div>
+            <div id="casillaNegraRow1" class="casilla">
+                <div id="fichaBlancaRow1" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow1" class="casilla"></div>
+            <div id="casillaNegraRow1" class="casilla">
+                <div id="fichaBlancaRow1" class="fichaBlanca"></div>
+            </div>
+        </div> 
+
+        <div id="row2" class="fila""> 
+            <div id="casillaNegraRow2" class="casilla">
+                <div id="fichaBlancaRow2" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow2" class="casilla"></div>
+            <div id="casillaNegraRow2" class="casilla">
+                <div id="fichaBlancaRow2" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow2" class="casilla"></div>
+            <div id="casillaNegraRow2" class="casilla">
+                <div id="fichaBlancaRow2" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow2" class="casilla"></div>
+            <div id="casillaNegraRow2" class="casilla">
+                <div id="fichaBlancaRow2" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow2" class="casilla"></div>
+        </div>
+
+        <div id="row3" class="fila">
+            <div id="casillaBlancaRow3" class="casilla"></div>
+            <div id="casillaNegraRow3" class="casilla">
+                <div id="fichaBlancaRow3" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow3" class="casilla"></div>
+            <div id="casillaNegraRow3" class="casilla">
+                <div id="fichaBlancaRow3" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow3" class="casilla"></div>
+            <div id="casillaNegraRow3" class="casilla">
+                <div id="fichaBlancaRow3" class="fichaBlanca"></div>
+            </div>
+            <div id="casillaBlancaRow3" class="casilla"></div>
+            <div id="casillaNegraRow3" class="casilla">
+                <div id="fichaBlancaRow3" class="fichaBlanca"></div>
+            </div>
+        </div> 
+        
+        <div id="row4" class="fila""> 
+            <div id="casillaNegraRow4" class="casilla"></div>
+            <div id="casillaBlancaRow4" class="casilla"></div>
+            <div id="casillaNegraRow4" class="casilla"></div>
+            <div id="casillaBlancaRow4" class="casilla"></div>
+            <div id="casillaNegraRow4" class="casilla"></div>
+            <div id="casillaBlancaRow4" class="casilla"></div>
+            <div id="casillaNegraRow4" class="casilla"></div>
+            <div id="casillaBlancaRow4" class="casilla"></div>
+        </div>
+
+        <div id="row5" class="fila" style="clear: both;">
+            <div id="casillaBlancaRow5" class="casilla"></div>
+            <div id="casillaNegraRow5" class="casilla"></div>
+            <div id="casillaBlancaRow5" class="casilla"></div>
+            <div id="casillaNegraRow5" class="casilla"></div>
+            <div id="casillaBlancaRow5" class="casilla"></div>
+            <div id="casillaNegraRow5" class="casilla"></div>
+            <div id="casillaBlancaRow5" class="casilla"></div>
+            <div id="casillaNegraRow5" class="casilla"></div>
+        </div> 
+        
+        <div id="row6" class="fila""> 
+            <div id="casillaNegraRow6" class="casilla">
+                <div id="fichaNegraRow6" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow6" class="casilla"></div>
+            <div id="casillaNegraRow6" class="casilla">
+                <div id="fichaNegraRow6" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow6" class="casilla"></div>
+            <div id="casillaNegraRow6" class="casilla">
+                <div id="fichaNegraRow6" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow6" class="casilla"></div>
+            <div id="casillaNegraRow6" class="casilla">
+                <div id="fichaNegraRow6" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow6" class="casilla"></div>
+        </div>
+        
+        <div id="row7" class="fila" style="clear: both;">
+            <div id="casillaBlancaRow7" class="casilla"></div>
+            <div id="casillaNegraRow7" class="casilla">
+                <div id="fichaNegraRow7" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow7" class="casilla"></div>
+            <div id="casillaNegraRow7" class="casilla">
+                <div id="fichaNegraRow7" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow7" class="casilla"></div>
+            <div id="casillaNegraRow7" class="casilla">
+                <div id="fichaNegraRow7" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow7" class="casilla"></div>
+            <div id="casillaNegraRow7" class="casilla">
+                <div id="fichaNegraRow7" class="fichaNegra"></div>
+            </div>
+        </div> 
+        
+        <div id="row8" class="fila""> 
+            <div id="casillaNegraRow8" class="casilla">
+                <div id="fichaNegraRow8" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow8" class="casilla"></div>
+            <div id="casillaNegraRow8" class="casilla">
+                <div id="fichaNegraRow8" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow8" class="casilla"></div>
+            <div id="casillaNegraRow8" class="casilla">
+                <div id="fichaNegraRow8" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow8" class="casilla"></div>
+            <div id="casillaNegraRow8" class="casilla">
+                <div id="fichaNegraRow8" class="fichaNegra"></div>
+            </div>
+            <div id="casillaBlancaRow8" class="casilla"></div>
+        </div>
+        
+
+
+
+
+    
+        
+
+
+    </div>
+</body>
+</html>
