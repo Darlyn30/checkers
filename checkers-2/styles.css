@@ -1,0 +1,262 @@
+
+/* TABLERO */
+
+
+#tablero {
+    width: 655px;
+    height: 655px;
+    display: block;
+    margin-left: 250px;
+}
+
+#casillaBlancaRow1 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+#casillaNegraRow1 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+
+}
+
+#row1 {
+    display: flex
+}
+
+#row2 {
+    display: flex;
+
+
+}
+#row3 {
+    display: flex;
+}
+
+#row4 {
+    display: flex;
+}
+#row5 {
+    display: flex;
+}
+#row6 {
+    display: flex;
+}
+#row7 {
+    display: flex;
+}
+#row8 {
+    display: flex;
+}
+
+#casillaBlancaRow2 {
+    background-color: darkred;
+
+    width: 80px;
+    height: 80px;
+    border:  1px solid white;
+}
+
+#casillaNegraRow2 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaBlancaRow3 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow3 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaBlancaRow4 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow4a1, #casillaNegraRow4a2, #casillaNegraRow4a3, #casillaNegraRow4a4 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+
+#casillaBlancaRow5 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow5a1, #casillaNegraRow5a2, #casillaNegraRow5a3, #casillaNegraRow5a4 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+
+#casillaBlancaRow6 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow6 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaBlancaRow7 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow7 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaBlancaRow8 {
+    background-color: darkred;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#casillaNegraRow8 {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+
+
+
+
+.fila {
+    display: inline-block;
+    clear: both;
+}
+/* .casilla {
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+
+} */
+
+body {
+    background-color: aqua;
+}
+
+/* #row2 {
+
+} */
+
+#tablero {
+    background-color: rgb(101, 67, 33)
+}
+
+.casilla {
+    display: inline-block;
+}
+/* TABLERO */
+
+/* FICHAS */
+#fichaBlancaRow1a1, #fichaBlancaRow1a2, #fichaBlancaRow1a3, #fichaBlancaRow1a4 {
+    
+    background-color:red;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+#fichaBlancaRow2a1 ,#fichaBlancaRow2a2, #fichaBlancaRow2a3, #fichaBlancaRow2a4 {
+    
+    background-color:red;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+#fichaBlancaRow3a1, #fichaBlancaRow3a2, #fichaBlancaRow3a3, #fichaBlancaRow3a4 {
+    
+    background-color:red;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+#fichaBlancaRow4 {
+    
+    background-color:red;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+#fichaNegraRow6a1, #fichaNegraRow6a2, #fichaNegraRow6a3, #fichaNegraRow6a4 {
+    background-color: gray;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+
+#fichaNegraRow7a1, #fichaNegraRow7a2, #fichaNegraRow7a3, #fichaNegraRow7a4 {
+    background-color: gray;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#fichaNegraRow8a1, #fichaNegraRow8a2, #fichaNegraRow8a3, #fichaNegraRow8a4 {
+    background-color: gray;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.fichaBlanca:hover {
+    cursor: pointer;
+}
+
+.fichaNegra:hover {
+    cursor: pointer;
+}
+
+/* FICHAS */
